@@ -1,0 +1,74 @@
+name: apliksi_ketiga
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  provider: ^6.0.5
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.3.1
+  firebase_auth: ^5.4.4
+  google_sign_in: ^6.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_custom_clippers: ^2.1.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+  custom_lint: ^0.8.0
+  riverpod_lint: ^3.0.3
+
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/logo_quiro.png
+    - assets/hal_2.png
+    - assets/hal_3.png
+    - assets/hal_4.png
+    - assets/hal_5.png
+    - assets/hal_6.png
+    - assets/logo_google.png
+    - assets/huruf_d.png
+    - assets/huruf_e.png
+    - assets/huruf_a.png
+    - assets/background_home.png
+    - assets/list_quiz.png
+    - assets/gambar_randomquiz.png
+    - assets/background_quiz.png
+    - assets/background_finishquiz.png
+    - assets/background_listquiz.png
+    - assets/random_quiz1.png
+    - assets/random_quiz2.png
+    - assets/MainMenu.png
+    - assets/mainmenu2.png
+
+  # Fonts
+  fonts:
+    - family: fonts
+      fonts:
+        - asset: fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: fonts/Nunito-Regular.ttf
+          weight: 400
+
+flutter_launcher_icons:
+  android: true
+  ios: false  # Set to false if not building for iOS
+  image_path: "assets/quiro2.png"
+
+  # Optional: Adaptive icon for Android 8.0+
+  # adaptive_icon_background: "#FFFFFF"
+  # adaptive_icon_foreground: "assets/icons/quiro2.png"

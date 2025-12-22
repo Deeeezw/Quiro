@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- White background (same as your Flutter splash) -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Quiro logo centered (same position as Flutter splash) -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo_quiro"/>
+    </item>
+</layer-list>
